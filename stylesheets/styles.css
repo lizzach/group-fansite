@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+nav {
+    align-items: flex-start;
+    border: 5px solid black;
+    /* width: 200px; */
+    width: 15%;
+    float: left;
+    height: 250px;
+    margin-left: 10%;
+}
+
+#description {
+    float: center;
+    border: 5px solid black;
+    width: 500px;
+    margin-left: 30%; 
+    padding: 20px;
+}
+
+#group-info {
+    float: center;
+    text-align: center;
+    border: 5px solid black;
+    width: 500px;
+    margin-left: 30%;
+    padding: 20px; 
+}
+/* For the pet images/thumbnails */
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/* li {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+} */
