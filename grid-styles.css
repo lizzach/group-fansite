@@ -1,6 +1,6 @@
 .container {
-    width: 800px;
-    height: 600px;
+    width: 1000px;
+    height: 800px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -13,26 +13,26 @@
 }
 
 #yellow {
-    background-color: yellow;
+    background-color: rgb(233, 233, 154);
     grid-row: 1;
     grid-column: 1 / 6;
 }
 
 #green {
-    background-color: green;
+    background-color: rgb(146, 217, 146);
     grid-row: 2;
     grid-column: 2 / 6;
 
 }
 
 #red {
-    background-color: red;
+    background-color: rgb(226, 148, 148);
     grid-row: 3;
     grid-column: 2 / 6;
 }
 
 #orange {
-    background-color: orange;
+    background-color: rgb(240, 203, 134);
     grid-row: 4;
     grid-column: 2 / 6;
 }
@@ -42,4 +42,19 @@
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+#header-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.desc-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4em;
 }
