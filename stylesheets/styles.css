@@ -33,6 +33,10 @@ nav {
     padding: 20px; 
 }
 /* For the pet images/thumbnails */
+img {
+    width: 100px;
+    height: 100px;
+}
 .row {
     display: flex;
 }
