@@ -74,8 +74,8 @@ div.gallery p {
 
 div.gallery:hover {
   border: 3px solid #f2bce9;
+  box-shadow: 2px #d7a2ce;
 }
-
 
 div.gallery a {
   text-decoration: none;
