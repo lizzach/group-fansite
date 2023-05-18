@@ -1,0 +1,19 @@
+.screen {
+    height: 100%;
+    width: 50;
+    position: fixed;
+    top: 0;
+}
+
+.left {
+    left: 50%;
+    background-color: blue;
+
+}
+.center {
+    background-color: green;
+}
+.right {
+    right: 25%;
+    background-color: red;
+}
