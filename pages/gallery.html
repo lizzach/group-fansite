@@ -5,43 +5,65 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="../gallery-styles.css">
 </head>
-<body id="gallery-container">
-  <header id="gallery-header">
-    <h1>
-      Fur Real Gallery
-    </h1>
-    <h2>
-      &#10024; Chewie &#10024; Rhubarb &#10024; Cecil &#10024; Comet &#10024;
-    </h2>
-  </header>
-  <div class="gallery">
-    <a target="_blank" href="../images/red-sweater-chewie.jpg">
-      <img src="../images/red-sweater-chewie.jpg" alt="Chewie in a red sweater" width="600" height="400">
-    </a>
-    <div class="desc">Chewie trying to look cute in a red sweater</div>
-  </div>
-  
-  <div id="sleepy-chewie" class="gallery">
-    <a target="_blank" href="../images/sleepy-chewie.jpg">
-      <img src="../images/sleepy-chewie.jpg" alt="Sleepy Chewie" width="600" height="400">
-    </a>
-    <div class="desc">Chewie trying to take a nap</div>
-  </div>
-  
-  <div class="gallery">
-    <a target="_blank" href="../images/comet-selfie.png">
-      <img src="../images/comet-selfie.png" alt="Comet!" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-  
-  <div class="gallery">
-    <a target="_blank" href="../images/rhu-and-cecil-window.jpg">
-      <img src="../images/rhu-and-cecil-window.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
+<body>
+  <section id="gallery-container">
+    <div id="blue">
+      <nav id="side-bar" class="nav flex-column">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">Facts</a>
+        <a class="nav-link disabled">Gallery</a>
+      </nav>
+    </div>
+    <div id="yellow">
+      <header id="gallery-header">
+        <h1>Gallery</h1>
+        <h2>Chewie &#10024; Cecil &#10024; Rhubarb &#10024; Comet</h2>
+      </header>
+    </div>
+    <div id="red">
+      <section id="pic-box">
+        <div class="gallery">
+          <a target="_blank" href="../images/chewie-red-sweater.jpg">
+            <img src="../images/chewie-red-sweater.jpg" alt="Chewie in a red sweater">
+            <p>Chewie in his red sweater</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="../images/rhu-and-cecil-window.jpg">
+            <img src="../images/rhu-and-cecil-window.jpg" alt="Two fluffy cats at a window">
+            <p>Rhubarb and Cecil vibing at a window</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="../images/comet-selfie.png">
+            <img src="../images/comet-selfie.png" alt="A selfie of Comet judging you">
+            <p>Comet questioning your life choices</p>
+          </a>
+        </div>
+        <div class="gallery wide">
+          <a target="_blank" href="../images/cat-banana.jpeg">
+            <img id="banana" src="../images/cat-banana.jpeg" alt="Cat guarding a banana">
+            <p>Cecil guarding bananas</p>
+          </a>
+        </div>
+        <div class="gallery wide">
+          <a target="_blank" href="../images/rhubarb-fish.jpeg">
+            <img id="banana" src="../images/rhubarb-fish.jpeg" alt="Cat holding fish toy cutely">
+            <p>Rhubarb with a fish</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="../images/bombastic-side-eye.jpg">
+            <img src="../images/bombastic-side-eye.jpg" alt="Dog giving side eye">
+            <p>Chewie giving some serious side eye</p>
+          </a>
+        </div>
+      </section>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
