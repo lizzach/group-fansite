@@ -70,13 +70,7 @@
 
 
 img {
-    width: 70%;
-    border-radius: 80%;
-}
-div.comet {
-    width: 45%;
-}
-
-div.p {
-    
+    width: 200px;
+    height: 200px;
+    border-radius: 75%;
 }
